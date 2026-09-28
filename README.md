@@ -95,8 +95,7 @@ Durante o desenvolvimento trabalhei conceitos como:
 
 ## 🚀 Deploy
 
-ninas-pet-care-d4vbqp0mq-wanderson-dev1.vercel.app
-
+(https://ninas-pet-care.vercel.app/)
 ## 👨‍💻 Autor
 
 Desenvolvido por **Wanderson Bruno** como projeto de portfólio e estudo de desenvolvimento web.
