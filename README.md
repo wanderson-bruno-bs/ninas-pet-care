@@ -97,10 +97,7 @@ Durante o desenvolvimento trabalhei conceitos como:
 - Organização de arquivos
 - Git e GitHub
 - Otimização de imagens para web
-
-## 🚀 Deploy
-
-(https://ninas-pet-care.vercel.app/)
+- 
 ## 👨‍💻 Autor
 
 Desenvolvido por **Wanderson Bruno** como projeto de portfólio e estudo de desenvolvimento web.
