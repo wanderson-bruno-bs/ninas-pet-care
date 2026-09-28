@@ -1,10 +1,15 @@
-# 🐾 Nina's Pet Care
+# 🐾 Nina's Pet Care - Pet Care Website
 
-O **Nina's Pet Care** é um projeto de um site voltado para serviços de cuidados com pets.
+> Site responsivo desenvolvido para um negócio fictício de cuidados para pets, inspirado na Nina, minha cachorrinha.
 
-A ideia surgiu a partir da Nina, minha cachorrinha, que serviu de inspiração tanto para a identidade do projeto quanto para a proposta do site. O objetivo foi desenvolver uma experiência simples, acolhedora e fácil de navegar, simulando o site de uma empresa real de cuidados para animais.
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/STATUS-CONCLUÍDO-44CC11?style=for-the-badge)
 
-Este projeto também faz parte do meu portfólio e foi desenvolvido para colocar em prática meus conhecimentos em **HTML, CSS e JavaScript**, principalmente estruturação de páginas, estilização, responsividade e interações com o usuário.
+🔗 **Acesse o site ao vivo:** https://ninas-pet-care.vercel.app/
+
+---
 
 ## 🐶 Sobre o projeto
 
