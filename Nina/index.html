@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Nina's | Cuidados para seu pet</title>
+
+    <link rel="icon" type="image/png" href="img/favicon/favicon.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--Inicio Navbar-->
+    <header class="header">
+        <nav class="navbar">
+
+            <a href="index.html" class="logo" aria-label="Ir para a página inicial">
+                <img src="img/logo-nina.png" alt="Nina's Pet Care">
+            </a>
+            <button class="menu-toggle" id="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="servicos.html">Serviços</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+
+            <div class="nav-social">
+
+                <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M7 2C4.24 2 2 4.24 2 7v10c0 2.76 2.24 5 5 5h10c2.76 0 5-2.24 5-5V7c0-2.76-2.24-5-5-5H7zm10 2c1.66 0 3 1.34 3 3v10c0 1.66-1.34 3-3 3H7c-1.66 0-3-1.34-3-3V7c0-1.66 1.34-3 3-3h10zm-5 3a5 5 0 100 10 5 5 0 000-10zm0 2a3 3 0 110 6 3 3 0 010-6zm5.25-3.5a1.25 1.25 0 100 2.5 1.25 1.25 0 000-2.5z" />
+                    </svg>
+                </a>
+
+                <a href="https://wa.me/5521981508460?text=Olá!%20Vim%20pelo%20site%20da%20Nina's%20Pet%20Care%20e%20gostaria%20de%20mais%20informações."
+                    target="_blank" aria-label="WhatsApp" class="social-icon">
+                    <svg viewBox="0 0 24 24" aria-hidden="true">
+                        <path
+                            d="M12.04 2a9.84 9.84 0 00-8.43 14.91L2 22l5.22-1.55A9.97 9.97 0 1012.04 2zm0 17.8a7.8 7.8 0 01-3.98-1.09l-.28-.17-3.1.92.94-3.02-.18-.3a7.78 7.78 0 116.6 3.66zm4.28-5.84c-.23-.12-1.39-.69-1.61-.77-.21-.08-.37-.12-.53.12-.15.23-.6.77-.74.92-.13.16-.27.18-.5.06-.23-.12-.98-.36-1.87-1.15a7.01 7.01 0 01-1.29-1.6c-.13-.23-.01-.36.1-.47.1-.1.23-.27.35-.4.11-.14.15-.24.23-.39.08-.16.04-.3-.02-.41-.06-.12-.53-1.28-.72-1.75-.19-.46-.39-.4-.53-.41h-.45c-.16 0-.41.06-.62.29-.21.23-.82.8-.82 1.96s.84 2.27.96 2.43c.12.15 1.65 2.52 4 3.54.56.24 1 .39 1.34.5.56.18 1.07.15 1.47.09.45-.07 1.39-.57 1.59-1.12.19-.54.19-1.01.13-1.11-.05-.1-.21-.16-.44-.28z" />
+                    </svg>
+                </a>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!--Inicio Hero-->
+    <main>
+        <section class="hero" id="inicio">
+
+            <div class="hero-content">
+                <span class="hero-tag"><b>Cuidado de verdade para o seu pet</b></span>
+
+                <h1>
+                    Carinho e cuidado em
+                    <span>todos os momentos.</span>
+                </h1>
+
+                <p>
+                    Banho e tosa, passeios, dog care e hospedagem
+                    com todo o cuidado que o seu melhor amigo merece.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="servicos.html#agendamento" class="btn-hero">
+                        Agendar serviço
+                    </a>
+
+                    <a href="servicos.html#servicos" class="btn-servicos">
+                        Conhecer serviços
+                    </a>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <!--Servicos-->
+    <section class="servicos" id="servicos">
+
+        <div class="servicos-header">
+            <span class="section-tag">Nossos serviços</span>
+
+            <h2>Todo cuidado que seu pet precisa</h2>
+            <p>
+                Serviços pensados para proporcionar conforto,
+                segurança e bem-estar em todos os momentos.
+            </p>
+        </div>
+
+        <div class="servicos-grid">
+
+            <article class="servico-card">
+                <div class="servico-icon">
+                    <i class="fa-solid fa-shower"></i>
+                </div>
+                <h3>Banho e Tosa</h3>
+
+                <p>
+                    Higiene e cuidado para deixar seu pet
+                    limpo, confortável e ainda mais lindo.
+                </p>
+
+                <a href="servicos.html?servico=banho#agendamento" class="btn-servico-home">
+                    Agendar serviço
+                </a>
+            </article>
+
+            <article class="servico-card">
+                <div class="servico-icon">
+                    <i class="fa-solid fa-dog"></i>
+                </div>
+                <h3>Passeio</h3>
+
+                <p>
+                    Passeios seguros e divertidos para gastar
+                    energia e tornar o dia do seu pet mais feliz.
+                </p>
+
+                <a href="servicos.html?servico=passeio#agendamento" class="btn-servico-home">
+                    Agendar serviço
+                </a>
+            </article>
+
+            <article class="servico-card">
+                <div class="servico-icon">
+                    <i class="fa-solid fa-paw"></i>
+                </div>
+                <h3>Dog Care</h3>
+
+                <p>
+                    Companhia, diversão e atenção durante o dia
+                    enquanto você cuida dos seus compromissos.
+                </p>
+
+                <a href="servicos.html?servico=dogcare#agendamento" class="btn-servico-home">
+                    Agendar serviço
+                </a>
+            </article>
+
+            <article class="servico-card">
+                <div class="servico-icon">
+                    <i class="fa-solid fa-house"></i>
+                </div>
+                <h3>Hotel</h3>
+
+                <p>
+                    Um ambiente confortável e seguro para seu pet
+                    ficar enquanto você estiver fora.
+                </p>
+
+                <a href="servicos.html?servico=hotel#agendamento" class="btn-servico-home">
+                    Agendar serviço
+                </a>
+            </article>
+
+        </div>
+
+    </section>
+
+    <!--Como funciona-->
+    <section class="como-funciona">
+
+        <div class="como-funciona-header">
+            <span class="section-tag">Simples e rápido</span>
+
+            <h2>Como funciona?</h2>
+
+            <p>
+                Agendar um cuidado para o seu pet é fácil.
+                Você escolhe o serviço e nós cuidamos do resto.
+            </p>
+        </div>
+
+        <div class="passos">
+
+            <div class="passo">
+                <span class="passo-numero">01</span>
+
+                <h3>Escolha o serviço</h3>
+
+                <p>
+                    Selecione o cuidado ideal para o seu pet.
+                </p>
+            </div>
+
+            <div class="passo">
+                <span class="passo-numero">02</span>
+
+                <h3>Conte sobre seu pet</h3>
+
+                <p>
+                    Informe os dados e necessidades do seu companheiro.
+                </p>
+            </div>
+
+            <div class="passo">
+                <span class="passo-numero">03</span>
+
+                <h3>Escolha a data</h3>
+
+                <p>
+                    Informe o melhor dia e horário para o atendimento.
+                </p>
+            </div>
+
+            <div class="passo">
+                <span class="passo-numero">04</span>
+
+                <h3>Pronto!</h3>
+
+                <p>
+                    Confira os dados e envie sua solicitação de agendamento.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Depoimentos -->
+    <section class="depoimentos">
+
+        <div class="depoimentos-header">
+            <span class="section-tag">Depoimentos de Clientes</span>
+
+            <h2>O carinho deles diz tudo.</h2>
+
+            <p>
+                Veja o que alguns clientes contam sobre a experiência
+                de confiar seus melhores amigos aos nossos cuidados.
+            </p>
+        </div>
+
+        <div class="carrossel">
+
+            <button class="carrossel-btn anterior" aria-label="Depoimento anterior">
+                &#10094;
+            </button>
+
+            <div class="carrossel-viewport">
+
+                <div class="carrossel-track">
+
+                    <article class="depoimento-card">
+                        <div class="depoimento-estrelas">★★★★★</div>
+
+                        <p>
+                            “A Nina cuidou do meu pet com muito carinho.
+                            Foi uma experiência incrível e me senti muito
+                            tranquila durante todo o atendimento.”
+                        </p>
+
+                        <div class="depoimento-cliente">
+                            <div class="cliente-avatar">AM</div>
+
+                            <div>
+                                <h3>Ana Martins</h3>
+                                <span>Tutora do Theo</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="depoimento-card">
+                        <div class="depoimento-estrelas">★★★★★</div>
+
+                        <p>
+                            “O atendimento foi excelente. Meu cachorro
+                            voltou super feliz e já temos nosso próximo
+                            cuidado agendado.”
+                        </p>
+
+                        <div class="depoimento-cliente">
+                            <div class="cliente-avatar">CR</div>
+
+                            <div>
+                                <h3>Carlos Ribeiro</h3>
+                                <span>Tutor da Mel</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="depoimento-card">
+                        <div class="depoimento-estrelas">★★★★★</div>
+
+                        <p>
+                            “É muito bom encontrar pessoas em quem podemos
+                            confiar. ”
+                        </p>
+
+                        <div class="depoimento-cliente">
+                            <div class="cliente-avatar">JS</div>
+
+                            <div>
+                                <h3>Juliana Souza</h3>
+                                <span>Tutora da Luna</span>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="depoimento-card">
+                        <div class="depoimento-estrelas">★★★★★</div>
+
+                        <p>
+                            “Desde o primeiro atendimento fomos muito bem
+                            recebidos. Dá para perceber o cuidado e o carinho
+                            que eles têm com os animais.”
+                        </p>
+
+                        <div class="depoimento-cliente">
+                            <div class="cliente-avatar">RF</div>
+
+                            <div>
+                                <h3>Rafael Ferreira</h3>
+                                <span>Tutor do Bento</span>
+                            </div>
+                        </div>
+                    </article>
+
+                </div>
+
+            </div>
+
+            <button class="carrossel-btn proximo" aria-label="Próximo depoimento">
+                &#10095;
+            </button>
+
+        </div>
+
+        <div class="carrossel-indicadores"></div>
+
+    </section>
+    <!--Onde estámos-->
+    <section class="area-atendimento">
+
+        <div class="atendimento-container">
+
+            <div class="atendimento-mapa">
+
+                <iframe src="https://www.google.com/maps?q=Zona+Sul+Rio+de+Janeiro&output=embed" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade" title="Mapa da área de atendimento da Nina">
+                </iframe>
+
+            </div>
+
+            <div class="atendimento-conteudo">
+
+                <span class="section-tag">Área de atendimento</span>
+
+                <h2>Estamos pertinho de você.</h2>
+
+                <p>
+                    Atendemos diferentes bairros da Zona Sul do Rio de Janeiro
+                    com serviços pensados para facilitar a rotina de quem
+                    ama e cuida do seu pet.
+                </p>
+
+                <div class="bairros">
+                    <span>Gávea</span>
+                    <span>Leblon</span>
+                    <span>Ipanema</span>
+                    <span>Lagoa</span>
+                    <span>Jardim Botânico</span>
+                    <span>São Conrado</span>
+                </div>
+
+                <a href="https://whatsapp.com" target="_blank" class="btn-atendimento">
+                    Falar com a Nina's
+                </a>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+
+        <div class="footer-container">
+
+            <div class="footer-brand">
+                <a href="index.html" class="footer-logo">Nina's pet care</a>
+
+                <p>
+                    Cuidado, carinho e segurança para o seu pet
+                    em todos os momentos.
+                </p>
+            </div>
+
+            <div class="footer-links">
+                <h3>Navegação</h3>
+
+                <a href="index.html">Início</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="servicos.html">Serviços</a>
+                <a href="contato.html">Contato</a>
+            </div>
+
+            <div class="footer-links">
+                <h3>Serviços</h3>
+
+                <a href="servicos.html#banho-tosa">Banho e Tosa</a>
+                <a href="servicos.html#passeio">Passeio</a>
+                <a href="servicos.html#dog-care">Dog Care</a>
+                <a href="servicos.html#hotel">Hotel</a>
+            </div>
+
+            <div class="footer-cta">
+                <h3>Seu pet merece esse cuidado.</h3>
+
+                <p>
+                    Escolha o serviço ideal e faça sua solicitação.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 Nina's Pet Care. Projeto desenvolvido por Wanderson Bruno.</p>
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
