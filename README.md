@@ -95,7 +95,7 @@ Durante o desenvolvimento trabalhei conceitos como:
 
 ## 🚀 Deploy
 
-O projeto será publicado utilizando a Vercel.
+ninas-pet-care-d4vbqp0mq-wanderson-dev1.vercel.app
 
 ## 👨‍💻 Autor
 
